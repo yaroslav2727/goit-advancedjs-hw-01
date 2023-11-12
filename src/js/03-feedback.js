@@ -26,7 +26,6 @@ function onSubmit(event) {
     return;
   }
   console.log(settingsObj);
-  console.log(`EMAIL: ${settingsObj.email}\nMESSAGE: ${settingsObj.message}`);
   localStorage.removeItem(FORM_KEY);
   settingsObj = initializeForm(event.currentTarget);
 }

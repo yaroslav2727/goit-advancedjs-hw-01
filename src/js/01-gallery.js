@@ -24,7 +24,3 @@ const lightboxInstance = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
 });
-
-galleryEl.addEventListener("click", event => {
-  event.preventDefault();
-});
